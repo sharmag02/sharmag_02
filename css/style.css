@@ -326,7 +326,10 @@ h1 span.stop-blinking::before {
  
 
 
-
+.skill h1{
+  text-align: center;
+  font-size: 30px;
+}
 
 
 
@@ -461,8 +464,27 @@ h1 span.stop-blinking::before {
     text-align: center;
    }
   
+.projectimage{
+   gap: 20px;
+    padding-top: 30px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.image-container{
+  width: 100%;
+}
 
- 
+.projectimages{
+  gap: 20px;
+   padding-top: 30px;
+   align-items: center;
+   display: flex;
+   flex-direction: column;
+}
+.image-text p{
+  font-size: 18px;
+}
 
  
   }
