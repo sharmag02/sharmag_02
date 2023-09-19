@@ -30,17 +30,24 @@ document.getElementById("defaultOpen").click();
 
 
 
-let clip = document.querySelector(".vid")
-  
+const floating_btn = document.querySelector('.floating-btn');
+const close_btn = document.querySelector('.close-btn');
+const social_panel_container = document.querySelector('.social-panel-container');
 
-clip.addEventListener("mouseover", function (e) {
-    clip.play();
-})
+floating_btn.addEventListener('click', () => {
+  social_panel_container.classList.toggle('visible')
+});
+
+close_btn.addEventListener('click', () => {
+  social_panel_container.classList.remove('visible')
+});
 
 
-clip.addEventListener("mouseout", function (e) {
-    clip.pause();
-})
+
+
+
+
+
 
 
 
